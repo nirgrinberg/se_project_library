@@ -1,13 +1,13 @@
 .body {
-font-family:Arial, Helvetica, sans-serif;
-font-size: 16px;
-line-height: 20px;
-  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
+
 .page {
-min-width: 1100px;
-max-width: 1600px;
-margin: 0 auto;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .header {
@@ -21,9 +21,8 @@ margin: 0 auto;
   box-sizing: border-box;
 }
 
-
 .nav {
-  display: flexbox ;
+  display: flex;
   align-items: center;
 }
 
@@ -38,13 +37,11 @@ margin: 0 auto;
   padding-left: 0;
   margin-top: 8px;
   align-items: center;
-  column-gap:20px;
+  column-gap: 20px;
   justify-content: center;
   align-items: center;
   float: right;
-  
 }
-
 
 .nav__link {
   color: #000000;
@@ -52,7 +49,7 @@ margin: 0 auto;
   font-weight: bold;
 }
 
-.nav__link:hover{
+.nav__link:hover {
   color: #1f69c9;
 }
 
@@ -62,7 +59,6 @@ margin: 0 auto;
   font-weight: bold;
   margin: 150px 0 0;
   max-width: 544px;
-
 }
 
 .header__description {
@@ -75,11 +71,10 @@ margin: 0 auto;
 .header__image {
   max-width: 636px;
   z-index: 1;
-  position:absolute;
+  position: absolute;
   right: 50px;
   top: 135px;
 }
-
 
 .header__footer {
   position: absolute;
@@ -98,7 +93,7 @@ margin: 0 auto;
   text-decoration: none;
 }
 
-.header__link:hover{
+.header__link:hover {
   color: #1f69c9;
 }
 
@@ -131,12 +126,11 @@ margin: 0 auto;
 .cards_collection {
   display: flex;
   flex-wrap: wrap;
-  list-style:none ;
-  max-width:760px;
+  list-style: none;
+  max-width: 760px;
   margin: 68px auto;
   gap: 40px;
   justify-content: center;
-  
 }
 
 .card {
@@ -168,7 +162,6 @@ margin: 0 auto;
   line-height: 24px;
   text-overflow: ellipsis;
   overflow: hidden;
-
 }
 
 .card__footer {
@@ -221,8 +214,6 @@ margin: 0 auto;
 
 .event-info__icon_type_calendar {
   background-image: url(../images/icon_calendar.svg);
-  
-
 }
 
 .event-info__icon_type_pin {
@@ -247,7 +238,6 @@ margin: 0 auto;
 
 .events__more:hover {
   color: #1f69c9;
-
 }
 
 .events__cover {
@@ -256,7 +246,6 @@ margin: 0 auto;
   flex-basis: 780px;
   max-width: 780px;
   position: relative;
-  
 }
 
 .events__image {
@@ -299,7 +288,6 @@ margin: 0 auto;
   top: 79px;
   left: 159px;
   position: absolute;
-
 }
 
 .person__image {
@@ -322,7 +310,6 @@ margin: 0 auto;
   text-align: center;
   font-size: 14px;
   margin: 0;
-  
 }
 
 .membership {
@@ -348,16 +335,12 @@ margin: 0 auto;
   list-style-type: none;
   justify-content: space-around;
   flex-basis: auto;
-  flex-basis:auto ;
-  
-  
 }
 
 .step {
   width: 220px;
-  gap:40px;
+  gap: 40px;
   margin: 120px 0 80px 0;
-  
 }
 
 .step__title {
@@ -367,7 +350,7 @@ margin: 0 auto;
   font-weight: 700;
   display: flex;
   align-items: center;
-  font-weight:1000px;
+  font-weight: 1000px;
 }
 
 .step__icon {
@@ -395,7 +378,7 @@ margin: 0 auto;
   font-weight: 500;
   z-index: 1;
   left: 0px;
-  top:-10px;
+  top: -10px;
 }
 
 .about__content {
@@ -409,7 +392,6 @@ margin: 0 auto;
   position: relative;
   left: 275px;
   top: -60px;
-  
 }
 
 .about__circle {
@@ -420,21 +402,20 @@ margin: 0 auto;
   position: absolute;
   z-index: -1;
   left: -91px;
-  top:-121px ;
+  top: -121px;
 }
 
 .footer {
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  min-height:224px;
+  min-height: 224px;
   padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
-  display: :flex;
+  display: flex;
   padding: 60px 102px 130px 0px;
-
 }
 
 .footer__column_content_hours {
@@ -460,7 +441,7 @@ margin: 0 auto;
   margin-bottom: 16px;
 }
 
-.footer__list-item:last-of-type{
+.footer__list-item:last-of-type {
   margin-bottom: 0;
   font-size: 16px;
 }
@@ -476,11 +457,11 @@ margin: 0 auto;
   line-height: 28px;
   text-decoration: none;
   display: flex;
-  align-items:center ;
+  align-items: center;
   justify-content: space-between;
 }
 .footer__column-link:hover {
-  color:#c1c1c1;
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
