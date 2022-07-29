@@ -22,7 +22,7 @@
 }
 
 .nav {
-  display: flex;
+  display: flexbox;
   align-items: center;
 }
 
