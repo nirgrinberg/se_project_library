@@ -38,7 +38,6 @@
   align-items: center;
   column-gap: 20px;
   justify-content: center;
-  align-items: center;
   float: right;
 }
 
@@ -195,7 +194,6 @@
   font-weight: 500;
   line-height: 52px;
   margin: 32px 0;
-  font-weight: bold;
 }
 
 .event-info__item {
@@ -349,7 +347,6 @@
   font-weight: 700;
   display: flex;
   align-items: center;
-  font-weight: bold;
 }
 
 .step__icon {
