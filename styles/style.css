@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: Arial, 'Helvetica neue', sans-serif;
+  font-family: Arial, "Helvetica neue", sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -19,10 +19,8 @@
 }
 
 .nav {
-  align-items:center;
-  display:flex ;
-  justify-content: flex-start;
-
+  align-items: center;
+  display: flexbox;
 }
 
 .logo {
@@ -54,7 +52,7 @@
 .header__title {
   font-size: 66px;
   line-height: 76px;
-  font-weight: bold;
+  font-weight: 500;
   margin: 150px 0 0;
   max-width: 544px;
   z-index: 1;
@@ -159,8 +157,6 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 
 .card__footer {
@@ -261,31 +257,26 @@
 .person_name_feynman {
   top: -30px;
   left: 319px;
-  position: absolute;
 }
 
 .person_name_burbidge {
   top: 96px;
   right: 125px;
-  position: absolute;
 }
 
 .person_name_cannon {
   bottom: 18px;
-  left: 216px;
-  position: absolute;
+  right: 216px;
 }
 
 .person_name_mitchell {
   bottom: 82px;
   left: 142px;
-  position: absolute;
 }
 
 .person_name_tarter {
   top: 79px;
   left: 159px;
-  position: absolute;
 }
 
 .person__image {
@@ -330,14 +321,13 @@
   flex-direction: row;
   align-items: center;
   list-style-type: none;
-  justify-content: space-around;
+  justify-content: center;
   flex-basis: auto;
+  gap: 40px;
 }
 
 .step {
   width: 220px;
-  gap: 40px;
-  margin: 120px 0 80px 0;
 }
 
 .step__title {
@@ -366,7 +356,6 @@
   box-sizing: border-box;
   z-index: 1;
 }
-}
 
 .about__title {
   position: relative;
@@ -374,8 +363,6 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
-  left: 0px;
-  top: -10px;
 }
 
 .about__content {
@@ -388,7 +375,7 @@
 .about__paragraph {
   position: relative;
   left: 275px;
-  top: 20 px;
+  top: -60px;
 }
 
 .about__circle {
@@ -407,12 +394,11 @@
   background-color: #1f1f1f;
   color: #fff;
   min-height: 224px;
-  padding: 60px 102px 60px 80px;
+  padding: 57px 102px 60px 80px;
 }
 
 .footer__columns {
   display: flex;
-  padding: 60px 102px 130px 0px;
 }
 
 .footer__column_content_hours {
@@ -424,8 +410,7 @@
 }
 
 .footer__logo {
-  width: 146px;
-  height: 30px;
+  width: 153px;
 }
 
 .footer__list {
@@ -451,7 +436,7 @@
 .footer__column-link {
   color: white;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 20px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -464,10 +449,9 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 16px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
-  letter-spacing: 3px;
   font-size: 16px;
 }
