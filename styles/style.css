@@ -376,37 +376,13 @@
   font-weight: 400;
   max-width: 660px;
 }
-.about__title {
-  margin: 0;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 500;
-  z-index: 1;
-}
 
-.about__content {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
-  max-width: 660px;
-}
 .about__paragraph {
   margin: 0 0 32px;
 }
 
 .about__paragraph:last-of-type {
   margin: 0;
-}
-
-.about__circle {
-  background-color: #2f80ed;
-  width: 495px;
-  height: 495px;
-  border-radius: 50%;
-  position: absolute;
-  z-index: -1;
-  left: -91px;
-  top: -121px;
 }
 
 .about__circle {
