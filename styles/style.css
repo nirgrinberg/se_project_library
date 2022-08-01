@@ -20,7 +20,8 @@
 
 .nav {
   align-items: center;
-  display: flexbox;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -33,10 +34,7 @@
   list-style: none;
   padding-left: 0;
   margin-top: 8px;
-  align-items: center;
   column-gap: 20px;
-  justify-content: center;
-  float: right;
 }
 
 .nav__link {
@@ -55,7 +53,6 @@
   font-weight: 500;
   margin: 150px 0 0;
   max-width: 544px;
-  z-index: 1;
 }
 
 .header__description {
@@ -68,8 +65,8 @@
 .header__image {
   max-width: 636px;
   position: absolute;
-  z-index: -1;
-  right: 50px;
+  z-index: 1;
+  right: 20px;
   top: 135px;
 }
 
@@ -125,9 +122,10 @@
   flex-wrap: wrap;
   list-style: none;
   max-width: 760px;
-  margin: 68px auto;
+  margin: 68px auto 0;
   gap: 40px;
   justify-content: center;
+  padding: 0;
 }
 
 .card {
@@ -202,8 +200,10 @@
 
 .event-info__icon {
   background-repeat: no-repeat;
-  background-position: left;
-  margin-right: 0;
+  background-position: center;
+  margin-right: 12px;
+  height: 24px;
+  width: 24px;
 }
 
 .event-info__icon_type_calendar {
@@ -217,7 +217,8 @@
 .event-info__text {
   font-size: 20px;
   font-weight: 500;
-  margin: 32px;
+  margin: 0;
+  line-height: 30px;
 }
 
 .events__description {
@@ -319,10 +320,10 @@
 .membership__steps {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  list-style-type: none;
+  padding: 0;
+  list-style: none;
   justify-content: center;
-  flex-basis: auto;
+  margin: 100px 0 0;
   gap: 40px;
 }
 
@@ -348,6 +349,8 @@
 }
 
 .about {
+  display: flex;
+  gap: 120px;
   padding: 100px 80px;
   background-color: #1f1f1f;
   color: #fff;
@@ -358,7 +361,7 @@
 }
 
 .about__title {
-  position: relative;
+  margin: 0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
@@ -373,9 +376,7 @@
 }
 
 .about__paragraph {
-  position: relative;
-  left: 275px;
-  top: -60px;
+  margin: 0 0 32px;
 }
 
 .about__circle {
@@ -394,7 +395,7 @@
   background-color: #1f1f1f;
   color: #fff;
   min-height: 224px;
-  padding: 57px 102px 60px 80px;
+  padding: 60px 102px 60px 80px;
 }
 
 .footer__columns {
@@ -410,7 +411,8 @@
 }
 
 .footer__logo {
-  width: 153px;
+  width: 146px;
+  height: 30px;
 }
 
 .footer__list {
@@ -425,12 +427,10 @@
 
 .footer__list-item:last-of-type {
   margin-bottom: 0;
-  font-size: 16px;
 }
 
 .footer__column-heading {
   margin: 0 0 20px;
-  font-size: 16px;
 }
 
 .footer__column-link {
@@ -453,5 +453,5 @@
 }
 
 .footer__copyright {
-  font-size: 16px;
+  margin: 108px 0 0;
 }
